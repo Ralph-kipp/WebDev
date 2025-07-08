@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const SweetDelightsDashboardSystem = () => {
+const Dashboard = () => {
   const [currentView, setCurrentView] = useState('registration');
   const [currentStep, setCurrentStep] = useState(1);
   const [userRole, setUserRole] = useState('customer');
@@ -1046,4 +1046,4 @@ const SweetDelightsDashboardSystem = () => {
   );
 };
 
-export default SweetDelightsDashboardSystem;
+export default Dashboard;

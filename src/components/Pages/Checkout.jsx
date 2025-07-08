@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { CreditCard, Truck, MapPin, Shield, Clock, Check, Heart, Star } from 'lucide-react';
-const SweetBitesCheckout = () => {
+const Checkout = () => {
   const [selectedDelivery, setSelectedDelivery] = useState('standard');
   const [selectedPayment, setSelectedPayment] = useState('card');
   const [showAddressForm, setShowAddressForm] = useState(false);
@@ -565,4 +565,4 @@ const SweetBitesCheckout = () => {
   );
 };
 
-export default SweetBitesCheckout;
+export default Checkout;
